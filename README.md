@@ -1,1 +1,1 @@
-# discrete-math
+1 course
