@@ -1,5 +1,5 @@
-let start = 2
-let last = 7
+const indexStart = 8
+const indexFinish = 0
 
 
 const arr = [9, 8, 7, 6, 5, 4, 3, 2, 1, 0]
@@ -20,7 +20,7 @@ const bubbleSort = (arr, s, l) => {
     return arr
 }
 
-console.log("bubbleSort", bubbleSort([9, 8, 7, 6, 5, 4, 3, 2, 1, 0], start, last));
+console.log("bubbleSort", bubbleSort([9, 8, 7, 6, 5, 4, 3, 2, 1, 0], indexStart, indexFinish));
 
 function insertionSort(arr, s, l) {
     let arrLength = null
@@ -37,7 +37,7 @@ function insertionSort(arr, s, l) {
     return arr
 }
 
-console.log("insertionSort", insertionSort([9, 8, 7, 6, 5, 4, 3, 2, 1, 0], start, last));
+console.log("insertionSort", insertionSort([9, 8, 7, 6, 5, 4, 3, 2, 1, 0], indexStart, indexFinish));
 
 function selectionSort(arr, s, l) {
     let arrLength = null
@@ -58,4 +58,4 @@ function selectionSort(arr, s, l) {
     return arr
 }
 
-console.log("selectionSort", selectionSort([9, 8, 7, 6, 5, 4, 3, 2, 1, 0], start, last));
+console.log("selectionSort", selectionSort([9, 8, 7, 6, 5, 4, 3, 2, 1, 0], indexStart, indexFinish));
