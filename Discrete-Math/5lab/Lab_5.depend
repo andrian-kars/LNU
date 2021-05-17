@@ -1,0 +1,31 @@
+# depslib dependency file v1.0
+1619540312 source:f:\dysmath\lab_5\converter.cpp
+	"Converter.h"
+	"Listt.h"
+	<string>
+
+1619527906 f:\dysmath\lab_5\converter.h
+	<iostream>
+	<string>
+	<stack>
+	<bits/stdc++.h>
+	<cmath>
+	<cstdlib>
+
+1619542431 source:f:\dysmath\lab_5\main.cpp
+	"Listt.h"
+	"Converter.h"
+
+1619170539 source:f:\dysmath\lab_5\list.cpp
+	"list.h"
+
+1619169750 f:\dysmath\lab_5\list.h
+	<iostream>
+
+1619355504 source:f:\dysmath\lab_5\listt.cpp
+	"listt.h"
+	<iostream>
+
+1619355494 f:\dysmath\lab_5\listt.h
+	<iostream>
+
